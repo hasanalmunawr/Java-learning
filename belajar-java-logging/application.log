@@ -1,0 +1,94 @@
+19:07:23.101 [main] TRACE hasan.devp.logging.LevelTest - this trace level
+19:07:23.102 [main] DEBUG hasan.devp.logging.LevelTest - this debug level
+19:07:23.103 [main] INFO  hasan.devp.logging.LevelTest - this info level
+19:07:23.103 [main] WARN  hasan.devp.logging.LevelTest - this warning level
+19:07:23.103 [main] ERROR hasan.devp.logging.LevelTest - this error level
+19:07:56.185 [main] TRACE hasan.devp.logging.LevelTest - this trace level
+19:07:56.186 [main] DEBUG hasan.devp.logging.LevelTest - this debug level
+19:07:56.186 [main] INFO  hasan.devp.logging.LevelTest - this info level
+19:07:56.186 [main] WARN  hasan.devp.logging.LevelTest - this warning level
+19:07:56.186 [main] ERROR hasan.devp.logging.LevelTest - this error level21
+19:33:40.612 [main] TRACE hasan.devp.logging.LevelTest - this trace level
+19:33:40.613 [main] DEBUG hasan.devp.logging.LevelTest - this debug level
+19:33:40.613 [main] INFO  hasan.devp.logging.LevelTest - this info level
+19:33:40.613 [main] WARN  hasan.devp.logging.LevelTest - this warning level
+19:33:40.613 [main] ERROR hasan.devp.logging.LevelTest - this error level
+19:34:41.569 [main] TRACE hasan.devp.logging.LevelTest - this trace level
+19:34:41.570 [main] DEBUG hasan.devp.logging.LevelTest - this debug level
+19:34:41.570 [main] INFO  hasan.devp.logging.LevelTest - this info level
+19:34:41.570 [main] WARN  hasan.devp.logging.LevelTest - this warning level
+19:34:41.570 [main] ERROR hasan.devp.logging.LevelTest - this error level
+2023-12-21 22:23:54.610 [main] TRACE hasan.devp.logging.LevelTest - this trace level
+2023-12-21 22:23:54.611 [main] DEBUG hasan.devp.logging.LevelTest - this debug level
+2023-12-21 22:23:54.611 [main] INFO  hasan.devp.logging.LevelTest - this info level
+2023-12-21 22:23:54.611 [main] WARN  hasan.devp.logging.LevelTest - this warning level
+2023-12-21 22:23:54.611 [main] ERROR hasan.devp.logging.LevelTest - this error level
+2023-12-21 22:33:57.883 [main] INFO  hasan.devp.logging.MyControler - 1684245c-01f6-4d13-8ad6-30bc0cdbf1ea . Controler Save
+2023-12-21 22:33:57.885 [main] INFO  hasan.devp.logging.MyService - 1684245c-01f6-4d13-8ad6-30bc0cdbf1ea . Service Save
+2023-12-21 22:33:57.885 [main] INFO  hasan.devp.logging.MyRepository - 1684245c-01f6-4d13-8ad6-30bc0cdbf1ea . Repository save 
+2023-12-21 22:36:26.667 [main] INFO  hasan.devp.logging.MyControler - 55c614ea-355b-49ad-956d-e24269c8e77a . Controler Save
+2023-12-21 22:36:26.668 [main] INFO  hasan.devp.logging.MyService - 55c614ea-355b-49ad-956d-e24269c8e77a . Service Save
+2023-12-21 22:36:26.668 [main] INFO  hasan.devp.logging.MyRepository - 55c614ea-355b-49ad-956d-e24269c8e77a . Repository save 
+2023-12-21 22:38:15.039 [main] INFO  hasan.devp.logging.MyControler - 0daff741-2d87-4a69-87a4-4e919c72cb0f . Controler Save
+2023-12-21 22:38:15.040 [main] INFO  hasan.devp.logging.MyService - 0daff741-2d87-4a69-87a4-4e919c72cb0f . Service Save
+2023-12-21 22:38:15.041 [main] INFO  hasan.devp.logging.MyRepository - 0daff741-2d87-4a69-87a4-4e919c72cb0f . Repository save 
+2023-12-21 22:46:02.483 [Thread-5] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-0] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-1] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-6] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-3] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.484 [Thread-5] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-3] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.483 [Thread-7] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.484 [Thread-5] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.483 [Thread-4] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-2] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-9] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.483 [Thread-8] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:02.484 [Thread-2] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-0] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-8] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-1] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-0] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-8] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-6] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-7] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-3] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-4] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-7] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-9] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:02.484 [Thread-2] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-1] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-6] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-4] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:02.484 [Thread-9] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.631 [Thread-0] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-1] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-5] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-2] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-7] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.632 [Thread-0] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.631 [Thread-3] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-6] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.632 [Thread-0] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.631 [Thread-8] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.631 [Thread-4] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.633 [Thread-3] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-6] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-8] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.632 [Thread-1] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-6] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.632 [Thread-5] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.632 [Thread-2] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.631 [Thread-9] INFO  hasan.devp.logging.MyControler - Controler Save
+2023-12-21 22:46:50.632 [Thread-7] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-4] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-9] INFO  hasan.devp.logging.MyService - Service Save
+2023-12-21 22:46:50.633 [Thread-7] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-3] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-4] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-8] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-1] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-5] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-2] INFO  hasan.devp.logging.MyRepository - Repository save 
+2023-12-21 22:46:50.633 [Thread-9] INFO  hasan.devp.logging.MyRepository - Repository save 

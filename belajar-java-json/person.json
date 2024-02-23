@@ -1,0 +1,10 @@
+{
+  "firstName": "hasan",
+  "lastName": "almunawar",
+  "age": 19,
+  "addres": {
+    "street": "jalan 2",
+    "province": "jambi",
+    "country": "indonesian"
+  }
+}

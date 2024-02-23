@@ -1,0 +1,11 @@
+{"firstName":"hasan","lastName":"almunawar","age":19,"addres":{"street":"jalan 2","province":"jambi","country":"indonesian"}}{"firstName":"kayla","lastName":"deva","age":18,"addres":{"street":"jalan kosong","province":"sby","country":"indonesian"}}{
+  "firstName" : "has",
+  "lastName" : "de",
+  "age" : 1421,
+  "addres" : {
+    "street" : "jalan kosong",
+    "province" : "jogja",
+    "country" : "indonesian"
+  },
+  "hobbies" : null
+}

@@ -1,0 +1,78 @@
+<!--<configuration>-->
+
+<!--&lt;!&ndash; khusus package hasan.devp.logging levelnya akan menggunakan trace    &ndash;&gt;-->
+<!--    <logger name="hasan.devp.logging" level="trace"/>-->
+
+<!--&lt;!&ndash;    contoh packge berbeda dengan tingkat level yang berbeda&ndash;&gt;-->
+<!--    <logger name="contohPangkage" level="info"/>-->
+
+<!--&lt;!&ndash;    sedangkan yang lainnya menggunakan warn&ndash;&gt;-->
+<!--    <root level="warn">-->
+<!--        <appender class="ch.qos.logback.core.ConsoleAppender">-->
+<!--            <encoder>-->
+<!--                <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--            </encoder>-->
+<!--        </appender>-->
+<!--    </root>-->
+<!--</configuration>-->
+
+<!--Appender-->
+<!--<configuration>-->
+
+<!--<logger name="hasan.devp.logging" level="trace"/>-->
+
+<!--<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">-->
+<!--<encoder>-->
+<!--    <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--</encoder>-->
+<!--</appender>-->
+
+<!--<appender name="FILE" class="ch.qos.logback.core.FileAppender">-->
+<!--<file>application.log</file>-->
+<!--<encoder>-->
+<!--    <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--</encoder>-->
+<!--</appender>-->
+
+<!--<root level="warn">-->
+<!--<appender-ref ref="CONSOLE"/>     &lt;!&ndash; mengeluarkan hasil nya di console dan file dalam benruk application.log &ndash;&gt;-->
+<!--<appender-ref ref="FILE"/>-->
+<!--</root>-->
+
+<!--</configuration>-->
+
+<!--ROLLING FILE APPEANDER-->
+
+<configuration>
+
+<logger name="hasan.devp.logging" level="trace"/>
+<appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+        <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} [%X{requestId}]- %msg%n</pattern>
+    </encoder>
+</appender>
+
+<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+<file>application.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+<!--        rooler daily-->
+        <fileNamePattern>application-%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+<!--        each file shoudl be at most 100 mb, keep 60 days worth of history, out of most 20 GB-->
+        <maxFileSize>100mb</maxFileSize> <!-- stiap file hanya boleh 100mb-->
+        <maxHistory>60</maxHistory>
+        <totaolSizeCap>20GB</totaolSizeCap>
+    </rollingPolicy>
+    <encoder>
+<!--    <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+
+<!--        layout -->
+        <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+</appender>
+
+    <root level="warn">
+    <appender-ref ref="CONSOLE"/>
+    <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

@@ -1,0 +1,38 @@
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+             http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+             version="2.1">
+
+    <persistence-unit name="BELAJAR_JPA">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <!-- Entity Classes -->
+        <class>hasanalmunawarDev.jpa.entity.Customer</class>
+        <class>hasanalmunawarDev.jpa.entity.Category</class>
+        <class>hasanalmunawarDev.jpa.entity.Image</class>
+        <class>hasanalmunawarDev.jpa.entity.Member</class>
+        <class>hasanalmunawarDev.jpa.entity.Department</class>
+        <class>hasanalmunawarDev.jpa.entity.Wallet</class>
+        <class>hasanalmunawarDev.jpa.entity.Credential</class>
+        <class>hasanalmunawarDev.jpa.entity.User</class>
+        <class>hasanalmunawarDev.jpa.entity.Brand</class>
+        <class>hasanalmunawarDev.jpa.entity.Product</class>
+        <class>hasanalmunawarDev.jpa.entity.Employee</class>
+        <class>hasanalmunawarDev.jpa.entity.Manager</class>
+        <class>hasanalmunawarDev.jpa.entity.VicePresident</class>
+
+
+        <properties>
+            <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+<!--            <property name="jakarta.persistence.schema-generation.database.action" value="drop-and-create"/>-->
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/belajar_java_persistence_api"/>
+            <property name="jakarta.persistence.jdbc.user" value="root"/>
+            <property name="jakarta.persistence.jdbc.password" value="B@d1r0@12"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+        </properties>
+    </persistence-unit>
+
+</persistence>
